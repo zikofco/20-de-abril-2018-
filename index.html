@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Cultura japonesa">
+    <meta name="author" content="Francisco Cerda">
+    <title>CHILE-JAPON</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="estilo.css" rel="stylesheet">
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Migración</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#primera">Tokio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#segunda">Población migratoria </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#tercera">Gráfica</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container h-200">
+        <div class="row h-200">
+          <div class="col text-center">
+          	<h1>Japón</h1>
+          	<h2>Migración y cultura</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="primera">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 pt-2">
+        <svg width="360" height="360" style="background:#eee;">
+          <g>
+            <circle r="40" cx="100" cy="100"/>
+            <text x="98" y="100" fill="#ED3D88"></text>
+            <circle r="40" cx="250" cy="100"/>
+            <text x="248" y="100" fill="#ED3D88"></text>
+           
+          </g>
+        </svg>
+      </div>
+          <div class="col-lg-6">
+          	<h3 class="mt-3">Tokio</h3>
+          	<p>Tokio es el centro de la política, economía, educación, comunicación y cultura popular del país. Cuenta también con la mayor concentración de sedes corporativas, instituciones financieras, universidades y colegios, museos, teatros, y establecimientos comerciales y de entretenimiento de todo Japón.</p>
+            <p> El centro de Tokio, con sus 23 barrios, ocupa un tercio de la metrópoli, con una población cercana a los 13,23 millones de habitantes; esta área es lo que se conoce internacionalmente como la ciudad de Tokio. En su área metropolitana viven más de 37 millones de habitantes, lo que la convierte en la mayor aglomeración urbana del mundo.</p>
+              <p>A continuación se presenta una proporción de la población de Japon y su capital.</p>
+              
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="segunda" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="mt-3">Población migratoria</h3>
+            
+            
+            <p>Históricamente, la inmigración japonesa en Chile no fue numerosa como en otros países de la región como en el caso de su vecino septentrional, el Perú, donde reside la segunda comunidad más importante de nipones en América Latina. A pesar de esto, Chile fue hogar de varios japoneses que arribaron en pequeños grupos durante el siglo XX. Esto se debe a que Chile rechazó toda inmigración japonesa al país, al contrario como lo hicieron Perú y Brasil que hacían tratados de inmigración.</p>
+          </div>
+          <div class="col-lg-6 text-right dataviz-segunda"></div>
+        </div>
+      </div>
+    </section>
+    <section id="tercera">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 dataviz-tercera"></div>
+          <div class="col-lg-6">
+            <h3 class="mt-3">Gráfica</h3>
+            <p>En el siglo XX se marcaron las bases del diseño gráfico, de Japón salieron grandes diseñadores, los cuales vienen de una cultura rica en historia, tradiciones, colores, formas y un concepto del espacio gráfico muy distinto al mundo de occidente en donde lo inmediato y lo rápido estaba tan de moda en el siglo pasado.</p>
+            
+            <p>Ikko Tanaka fue un diseñador gráfico japonés, considerado como uno de los grandes exponentes de la cultura nipona en el mundo. Su extensa y ecléctica obra se caracteriza por la mezcla entre tradición oriental y modernismo occidental, trabajando indistintamente con abstracción y figuración.</p>  
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+      	<div class="row">
+      		<div class="col">
+		        <p class="small">Desarrollado por <a href="mailto:mail@mail.com">Francisco Cerda Julio</a> | Seminario Gráfica Computacional I 2018, Primer Semestre</p>
+		        <ul class="list-inline small">
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#primera">TOKIO</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#segunda">POBLACIÓN</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#tercera">GRÁFICA</a>
+		          </li>
+		        </ul>
+      		</div>
+      	</div>
+      </div>
+    </footer>
+
+    <!-- Javascript de visualizaciones-->
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="d3/primera.js"></script>
+	<script src="d3/segunda.js"></script>
+	<script src="d3/tercera.js"></script>
+    <!-- Javascript de Bootstrap -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+
+</html>
